@@ -14,7 +14,7 @@ class Car:
         return self.color
 
 # Example usage
-car Car("2022", "Toyota", "Red")
+car = Car("2022", "Toyota", "Red")
 print("Model:", car.get_model())  # Output: Model: 2022
 print("Name:", car.get_name())    # Output: Name: Toyota
 print("Color:", car.get_color())  # Output: Color: Red
